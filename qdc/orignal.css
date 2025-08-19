@@ -1,0 +1,143 @@
+.wp-calendar-nav
+{
+	border:2px solid rgb(0,0,0,0.02);
+	margin-left:2px;
+}
+.wp-calendar-nav a
+{
+	padding:2px 20px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+.tt-tabs .tt-tabs__body > div:hover > span {
+    color: white!important;
+}
+}
+.wp-calendar-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.input-wrapper
+{
+	margin-bottom:20px;
+}
+
+.pagination .current:hover
+{
+	color:white!important;
+}
+
+@media only screen and (min-width: 701px)
+{
+.menu-item-has-children .current-menu-item a
+{
+	color:#2e2e2e!important;
+}
+
+}
+
+.form-row-01
+{
+	display:flex;
+}
+
+.form-row-01 .col:nth-of-type(2n) {
+  padding:0px 10px;
+}
+
+@media (max-width: 768px){
+.container-indent{
+    margin-top: 44px;
+    padding-bottom: 12px;
+}
+	}
+
+
+/* Container styling */
+.sidebar-question-form {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Title Styling */
+.sidebar-question-form .form-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+/* Form Fields */
+.ninja-forms-form .nf-element, 
+.ninja-forms-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 2px solid #fdc400;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.ninja-forms-form .nf-element:focus,
+.ninja-forms-form textarea:focus {
+    border-color: #ffdd33;
+    outline: none;
+}
+
+/* Labels */
+.nf-field-label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+/* Required star */
+.nf-field-label .ninja-forms-req-symbol {
+    color: red;
+}
+
+/* Submit Button */
+.ninja-forms-form .nf-field-element input[type="button"] {
+    background-color: #fdc400;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.ninja-forms-form .nf-field-element input[type="button"]:hover {
+    background-color: #e6b800;
+}
+
+.nf-element::placeholder {
+    color: #888;
+    font-weight: 500;
+    font-size: 15px;
+}
+.nf-field-label {
+    display: none !important;
+}
+
+.nf-form-fields-required {
+    display: none !important;
+}
+
+.tt-promo-table .time {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.slick-arrow-02 .slick-prev, .slick-arrow-02 .slick-next{top:25% !important;}
